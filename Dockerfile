@@ -11,5 +11,5 @@ LABEL "com.github.actions.icon"="zap"
 LABEL "com.github.actions.color"="red"
 
 RUN npm install -g node-gyp
-RUN npm install -g serverless@2.36.0 --unsafe-perm=true
+RUN npm install -g serverless@2.69.0 --unsafe-perm=true
 ENTRYPOINT ["serverless"]
